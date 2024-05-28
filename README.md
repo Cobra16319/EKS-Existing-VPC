@@ -40,5 +40,9 @@ kubectl apply -f # The following files in this repo
 
 ``
 kubectl apply -f connectivity-test.yaml
+`` 
+
+
+``
 kubectl logs -f connectivity-test
 `` 
