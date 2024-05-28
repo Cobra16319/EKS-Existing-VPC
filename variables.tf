@@ -33,3 +33,9 @@ variable "min_capacity" {
   type        = number
   default     = 1
 }
+
+variable "node_role_arn" {
+  description = "ARN of the IAM role to be used by the EKS nodes"
+  type        = string
+}
+
