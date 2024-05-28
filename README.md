@@ -1,8 +1,23 @@
 # Deploy EKS to an Existing VPC 
 How to deploy EKS into existing VPC
 
+``
+git clone #your forked repo & change director
+``  
 
-#You can install this to make it faster # For macOS
+``
+terraform init
+``  
+
+``
+terraform plan
+``  
+
+``
+terraform apply
+``  
+
+#You can install this to make it faster For macOS
 
 ``
 brew install aws-iam-authenticator
