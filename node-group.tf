@@ -1,8 +1,8 @@
 resource "aws_eks_node_group" "eks_nodes" {
-  cluster_name    = module.eks.cluster_id
+  cluster_name    = module.eks.cluster_name
   node_group_name = "eks-nodes"
   node_role_arn   = var.node_role_arn
-  subnet_ids      = data.aws_subnet_ids.selected.ids
+  subnet_ids      = data.aws_subnets.selected.ids
 
   scaling_config {
     desired_size = var.desired_capacity
@@ -17,3 +17,4 @@ resource "aws_eks_node_group" "eks_nodes" {
     Terraform   = "true"
   }
 }
+
