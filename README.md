@@ -35,3 +35,10 @@ aws eks --region us-gov-east-1 update-kubeconfig --name my-eks-cluster
 ``
 kubectl apply -f # The following files in this repo
 ``  
+
+# For the connection test run 
+
+``
+kubectl apply -f connectivity-test.yaml
+kubectl logs -f connectivity-test
+`` 
