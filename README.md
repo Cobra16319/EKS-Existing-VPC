@@ -2,7 +2,7 @@
 How to deploy EKS into existing VPC
 
 ``
-git clone #your forked repo & change director
+git clone # {your cloned repo url}
 ``  
 
 ``
